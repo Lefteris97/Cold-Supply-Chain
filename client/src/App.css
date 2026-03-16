@@ -1,0 +1,65 @@
+.loginScreen{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title{
+  font-size: 60px;
+  font-weight: 900;
+  color: hsl(209, 72%, 62%);
+  text-shadow:
+    -2px -2px 0 hsl(209, 92%, 35%),  
+     2px -2px 0 hsl(209, 92%, 35%),
+    -2px 2px 0 hsl(209, 92%, 35%),
+     2px 2px 0 hsl(209, 92%, 35%);
+}
+
+.connectBtn{
+  margin-top: 90px;
+  margin-bottom: 50px;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  text-shadow:
+    -1px -1px 0 hsl(0, 0%, 0%),  
+     1px -1px 0 hsl(0, 0%, 0%),
+    -1px 1px 0 hsl(0, 0%, 0%),
+     1px 1px 0 hsl(0, 0%, 0%);
+  /* color: hsl(221, 29%, 75%); */
+  color: white;
+  background-color: hsl(209, 72%, 62%);
+  border: 3px solid hsl(204, 63%, 51%);
+  border-radius: 15px;
+}
+
+.connectBtn:hover{
+  background-color: hsl(209, 63%, 57%);
+  /* border: 3px solid hsl(204, 63%, 51%); */
+  border: 3px solid hsl(209, 92%, 35%);
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 30%;
+  border: 2px solid rgba(255, 255, 255, 0.562);
+  border-radius: 20px;
+  padding: 15px 0;
+  background-color: hsla(191, 41%, 90%, 0.336);
+}
+
+.line{
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.562);
+  margin: 15px 0;
+}
+
+.accInfo h2{
+  background-color: hsla(191, 41%, 90%, 0.336);
+}

@@ -1,0 +1,105 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(40, 54%, 80%);
+} 
+
+input, select {
+  width: min-content;
+  background-color: hsl(60, 33%, 91%);
+  font-size: 14px;
+  padding: 3px;
+  border: 2px solid black;
+}
+
+input[name="quantity"], 
+input[name="productId"], 
+input[name="productIdDel"], 
+input[name="prodId"],
+input[name="transferId"]{
+    width: 80px;
+    /* margin-right: 80%; */
+} 
+
+input[name="account"], 
+input[name="acc"], 
+input[name="remEntAcc"]{
+    width: 345px;
+}
+
+.btnArea button{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: hsl(207, 51%, 86%);
+}
+
+.btnArea button:hover{
+  cursor: pointer;
+  background-color: hsl(208, 45%, 72%);
+}
+
+label{
+  /* font-weight: bold; */
+  background-color: hsla(191, 41%, 90%, 0);
+}
+
+.addProdContainer h2, 
+.removeProductContainer h2, 
+.updateLocationContainer h2,
+.addUserContainer h2{
+    background-color: hsla(191, 41%, 90%, 0.336);
+}
+
+.addShipmentContainer h2,
+.remUserContainer h2,
+.addEntityContainer h2,
+.removeEntityContainer h2,
+.updateProductContainer h2,
+.updateShipmentContainer h2,
+.getProductDetailsSupplierContainer h2,
+.getProductDetailsContainer h2{
+    background-color: hsla(191, 41%, 90%, 0);
+}
+
+.dodContainer,
+.eadContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    background-color: hsla(191, 41%, 90%, 0);
+}
+
+.addProdContainer, 
+.removeProductContainer, 
+.updateLocationContainer,
+.addShipmentContainer,
+.addUserContainer,
+.remUserContainer,
+.addEntityContainer,
+.removeEntityContainer,
+.updateProductContainer,
+.updateShipmentContainer,
+.getProductDetailsSupplierContainer,
+.getProductDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: hsla(191, 41%, 90%, 0.336);
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: hsla(191, 41%, 90%, 0);
+}
+
+.btnArea{
+    background-color: hsla(191, 41%, 90%, 0);    
+}
